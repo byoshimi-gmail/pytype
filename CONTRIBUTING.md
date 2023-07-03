@@ -58,7 +58,7 @@ There are two ways to build the executables like `pytype` etc. To build them the
 same way that the continuous integration tests do, use this convenience script:
 
 ```shell
-python build_scripts/build.py
+python3 build_scripts/build.py
 ```
 
 `build.py` will build the executables in the `out/bin` directory.
